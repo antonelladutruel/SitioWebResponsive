@@ -1,26 +1,35 @@
 .color {
-    background-color: #495057;
+    background-color: #eb85b8;
 }
 
 .d-block {
     transition: transform 2s;
 }
 
-/* Oculta .contentAccordion en dispositivos menores a 576px */
 @media (max-width: 576px) {
     .contentAccordion {
         display: none;
     }
 }
 
+.content-wrapper {
+    display: flex;
+    margin: 5% 8%; 
+    align-items: center;
+
+}
+
 .contentAccordion {
-    flex-direction: row; 
-    align-items: flex-start; 
-    padding: 20px;
+    padding: 10%;
+    justify-content: space-between;
 }
 
-.accordionSection {
-    max-width: 30%; 
-    margin-right: 20px;
+.contentSection {
+    width: 70%; 
+    padding: 2%;
 }
 
+
+.titles{
+    text-align: center;
+}
