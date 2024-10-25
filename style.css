@@ -1,5 +1,26 @@
-.color{
-background-color:#495057;
+.color {
+    background-color: #495057;
 }
 
+.d-block {
+    transition: transform 2s;
+}
+
+/* Oculta .contentAccordion en dispositivos menores a 576px */
+@media (max-width: 576px) {
+    .contentAccordion {
+        display: none;
+    }
+}
+
+.contentAccordion {
+    flex-direction: row; 
+    align-items: flex-start; 
+    padding: 20px;
+}
+
+.accordionSection {
+    max-width: 30%; 
+    margin-right: 20px;
+}
 
